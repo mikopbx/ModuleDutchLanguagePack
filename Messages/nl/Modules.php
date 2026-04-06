@@ -66,6 +66,7 @@ return [
     'ext_ModuleInstallDescription' => 'Bij het installeren van de module controleert het systeem de licentie. Voor betaalde modules wordt, indien mogelijk, een proefversie aangeboden. Gratis modules worden zonder voorwaarden geïnstalleerd. Als de module eerder werd verwijderd tijdens het opslaan van de instellingen, worden deze hersteld. Tijdens het installeren van de module kunt u beter geen andere handelingen op het systeem uitvoeren.',
     'ext_ModuleInstallations' => 'Geïnstalleerd',
     'ext_ModuleLastRelease' => 'Huidige uitgave',
+    'ext_ModuleCrashLoopProblem' => 'De module werd automatisch uitgeschakeld vanwege herhaalde worker-crashes:',
     'ext_ModuleLicenseProblem' => 'Licentieprobleem voor uitbreidingsmodule',
     'ext_ModulePublisher' => 'Ontwikkelaar',
     'ext_ModuleStatusChanging' => 'Modulestatus wijzigen…',
@@ -103,4 +104,7 @@ return [
     'ext_MissingModuleUniqueID' => 'In het bestand module.json in het archief %filePath% ontbreekt het vereiste veld moduleUniqueID.',
     // Module package validation errors
     'ext_FileNotFound' => 'Modulebestand niet gevonden: %filePath%',
+    // Module compatibility validation
+    'ext_ModuleIncompatibleWithVersion' => 'Module %module% is niet compatibel met de huidige versie van MikoPBX.',
+    'ext_ModuleMethodSignatureIncompatibility' => 'Module %module% is incompatibel met de huidige versie van MikoPBX: incompatibiliteit van methodesignatuur gedetecteerd',
 ];

@@ -209,6 +209,7 @@ return [
     'rest_tag_S3Storage' => 'S3 Cloudopslag',
     'rest_schema_gs_call_parking_start_slot' => 'Parkeerplaats voor eerste oproep',
     'rest_schema_gs_record_announcement_in' => 'Melding afspelen bij het opnemen van inkomende gesprekken',
+    'rest_schema_gs_rate_limit_enabled' => 'HTTP-snelheidslimiet inschakelen',
     'rest_schema_gs_restart_every_night' => 'Start het systeem elke nacht opnieuw op',
     'rest_schema_gs_rtp_port_from' => 'RTP-bereik startpoort',
     'rest_schema_gs_sip_auth_prefix' => 'Voorvoegsel voor SIP-authenticatie',
@@ -357,6 +358,7 @@ return [
     'rest_param_cdr_dateTo' => 'Einddatum van de CDR-bemonsteringsperiode',
     'rest_param_cdr_search' => 'Slim zoeken op CDR en extensies. Ondersteunt prefixen voor nauwkeurig zoeken: src:number (bron), dst:number (bestemming), did:number (inkomende DID). Zonder prefix kunt u zoeken op alle velden, inclusief namen van medewerkers en mobiele nummers.',
     'rest_param_cdr_linkedid' => 'Filter: Exacte zoekopdracht op linkedid (om alle records van één gesprek op te halen)',
+    'rest_param_cdr_provider' => 'Provider-identificatie voor filtering (bijv. SIP-TRUNK-xxx)',
     'rest_param_cdr_token' => 'Een tijdelijk toegangstoken voor het afspelen van de gespreksopname (bij voorkeur om te bekijken)',
     'rest_param_cdr_deleteRecording' => 'Verwijdert het gespreksopnamebestand samen met de database-invoer. Verwijdert alle bestandsformaten (.mp3, .wav, .ogg). Standaard: false',
     // Authentication schema field descriptions
@@ -439,8 +441,10 @@ return [
     'rest_schema_cdr_answer' => 'Reactietijd op oproepen',
     'rest_schema_cdr_src_chan' => 'Origineel oproepkanaal',
     'rest_schema_cdr_src_num' => 'Beller-ID',
+    'rest_schema_cdr_src_name' => 'Weergavenaam beller',
     'rest_schema_cdr_dst_chan' => 'Bestemmingskanaal',
     'rest_schema_cdr_dst_num' => 'Gebeld nummer',
+    'rest_schema_cdr_dst_name' => 'Weergavenaam gebelde',
     'rest_schema_cdr_uniqueid' => 'Unieke oproepidentificatie',
     'rest_schema_cdr_linkedid' => 'Gekoppelde oproep-ID',
     'rest_schema_cdr_did' => 'DID-nummer (direct doorkiezen)',
@@ -473,6 +477,8 @@ return [
     'rest_schema_cdr_recording_url' => 'URL om de gespreksopname af te spelen met een tijdelijk toegangstoken',
     'rest_schema_cdr_playback_url' => 'URL voor het streamen van de gespreksopname (inline) met een tijdelijk toegangstoken',
     'rest_schema_cdr_download_url' => 'URL voor het downloaden van het gespreksopnamebestand (bijlage) met een tijdelijk toegangstoken',
+    'rest_schema_cdr_rec_src_channel' => 'Stereokanaalindex van src_num-audio (0=links, 1=rechts, leeg=mono)',
+    'rest_schema_cdr_dtmf_digits' => 'DTMF-cijfers ingedrukt tijdens IVR-menu-interactie. Door komma\'s gescheiden reeks: cijfers, \'t\' voor timeout, \'i\' voor ongeldige invoer.',
     'rest_schema_cq_extension' => 'Intern extensiewachtrijnummer',
     'rest_schema_cq_description' => 'Wachtrijbeschrijving',
     'rest_schema_cq_represent' => 'HTML-weergave voor weergave in vervolgkeuzelijsten',
@@ -774,6 +780,7 @@ return [
     'rest_param_syslog_date_to' => 'Einde van het te filteren tijdsbereik (formaat: JJJJ-MM-DD UU:MM:SS of Unix-tijdstempel)',
     'rest_param_syslog_archive_filename' => 'Pad naar het logarchiefbestand',
     'rest_param_syslog_archive' => 'Archieflogboeken gebruiken',
+    'rest_param_syslog_latest' => 'Indien waar, retourneer de nieuwste logitems. Wanneer gegevens de regellimiet overschrijden, vindt afkapping aan het begin plaats (oudste items worden verwijderd)',
     'rest_schema_syslog_filter' => 'Tekst voor het filteren van logregels',
     'rest_schema_syslog_log_level' => 'Loggingniveau voor filtering',
     'rest_schema_syslog_lines' => 'Aantal laatste logregels dat moet worden uitgevoerd',
@@ -781,6 +788,7 @@ return [
     'rest_schema_syslog_date_from' => 'Begin van het te filteren tijdsbereik',
     'rest_schema_syslog_date_to' => 'Einde van het tijdsbereik voor filtering',
     'rest_schema_syslog_archive' => 'Archieflogboeken gebruiken',
+    'rest_schema_syslog_latest' => 'Nieuwste items retourneren wanneer limiet wordt overschreden',
     // Fail2Ban specific parameters
     'rest_param_f2b_maxretry' => 'Maximaal aantal mislukte pogingen voordat blokkering optreedt',
     'rest_param_f2b_bantime' => 'Blokkeringstijd IP-adres in seconden',
@@ -1719,6 +1727,8 @@ return [
     'rest_ir_CopyDesc' => 'Een kopie maken van een bestaande inkomende route met een nieuwe prioriteit',
     'rest_ir_ChangePriority' => 'Wijzig routeprioriteit',
     'rest_ir_ChangePriorityDesc' => 'De prioriteitsvolgorde voor meerdere inkomende routes tegelijk bijwerken',
+    'rest_ir_GetUniqueDIDs' => 'Unieke DID\'s ophalen',
+    'rest_ir_GetUniqueDIDsDesc' => 'Geeft tot 20 unieke DID-nummers terug uit de gespreksgeschiedenis voor de opgegeven provider',
     // Schema field descriptions for Incoming Routes
     'rest_schema_ir_id' => 'Unieke identificatie van de inkomende route',
     'rest_schema_ir_rulename' => 'Naam van de inkomende routeregel',
@@ -1747,6 +1757,8 @@ return [
     'rest_cdr_Delete' => 'CDR-record(s) verwijderen',
     'rest_cdr_DeleteDesc' => 'Een gespreksdetailopname verwijderen. Ondersteunt twee modi: het verwijderen van een enkele opname op basis van een numerieke ID (bijv. 718517) of het verwijderen van alle gekoppelde opnames op basis van een gekoppelde ID (bijv. mikopbx-1760784793.4627). De parameter deleteRecording=true verwijdert ook gespreksopnamebestanden van alle formaten (.mp3, .wav, .ogg).',
     'rest_cdr_GetMetadataDesc' => 'Haal metadata op over CDR-records (datumbereik vanaf de laatste records) zonder de volledige gegevens te laden. Wordt gebruikt om de gebruikersinterface te initialiseren met een relevant datumbereik.',
+    'rest_cdr_GetStatsByProvider' => 'Belstatistieken per provider',
+    'rest_cdr_GetStatsByProviderDesc' => 'Verkrijg geaggregeerde belstatistieken gegroepeerd per provider/trunk. Retourneert aantal gesprekken, totale duur en factureerbare seconden voor inkomende en uitgaande gesprekken.',
     'rest_cdr_Download' => 'Download de opname van het gesprek',
     'rest_cdr_DownloadDesc' => 'Download de gespreksopname als bestand met de opgegeven naam (Content-Disposition: bijlage)',
     // CDR schema fields
@@ -2278,4 +2290,20 @@ return [
     'rest_sipp_UpdateStatus' => 'Providerstatus bijwerken',
     'rest_schema_stg_label' => 'Volumelabel',
     'rest_param_ext_search' => 'Zoekbalk',
+    'rest_S3LocalRetentionMustBeLess' => 'De lokale bewaartermijn (%local% dagen) moet korter zijn dan de totale bewaartermijn (%total% dagen).',
+    'rest_err_s3_connection_failed' => 'S3-verbinding mislukt. Controleer referenties en instellingen in diagnostische details.',
+    'rest_err_s3_required_fields' => 'Als S3 is ingeschakeld, zijn de volgende velden verplicht: %fields%',
+    'rest_err_s3_bucket_consecutive_dots' => 'De naam van de S3-bucket mag geen opeenvolgende punten (..) bevatten',
+    'rest_err_s3_bucket_ip_format' => 'De naam van de S3-bucket mag niet de indeling van een IP-adres hebben',
+    'rest_err_s3_bucket_xn_prefix' => 'De naam van de S3-bucket mag niet beginnen met "xn--"',
+    'rest_err_s3_bucket_reserved_suffix' => 'De naam van de S3-bucket mag niet eindigen op "-s3alias" of "--ol-s3"',
+
+    'rest_s3_StatsDesc' => 'Geeft gedetailleerde synchronisatiestatistieken van S3-cloudopslag weer: aantal bestanden in S3 en lokaal, totale grootte, synchronisatiepercentage, status (gesynchroniseerd/synchroniserend/in behandeling/uitgeschakeld), tijdstip van laatste upload en datum van het oudste bestand in behandeling.',
+    'rest_s3_Stats' => 'S3-synchronisatiestatistieken ophalen',
+    // ============================================================================
+    // System Upgrade
+    // ============================================================================
+    'rest_System_UpgradeFailedToDetectOffset' => 'De offset van de opstartpartitie kan niet worden vastgesteld.',
+    'rest_System_UpgradeLoopDeviceFailed' => 'Het is niet gelukt om een lusapparaat aan te maken.',
+    'rest_System_UpgradeMountFailed' => 'Partitie kon niet worden gekoppeld. Controleer het bestandssysteem.',
 ];
