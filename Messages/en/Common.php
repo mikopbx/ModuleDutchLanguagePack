@@ -3,20 +3,13 @@
 declare(strict_types=1);
 
 return [
-    'BreadcrumbModuleDutchLanguagePack' => 'Dutch Language Pack',
+    'BreadcrumbModuleDutchLanguagePack' => 'Language Pack - Dutch',
     'SubHeaderModuleDutchLanguagePack' => 'Complete Dutch language support for MikoPBX',
-    'mlp_SoundFiles' => 'Sound Files',
-    'mlp_TranslationFiles' => 'Translation Files',
-    'mlp_TranslationStrings' => 'Translation Strings',
-    'mlp_HowToUse' => 'How to Use',
-    'mlp_Step1' => 'After enabling this language pack, select Dutch as the system language in General Settings.',
-    'mlp_GoToGeneralSettings' => 'Go to General Settings',
-    'mlp_LicenseHeader' => 'License',
-    'mlp_ModuleCode' => 'Module code',
-    'mlp_SoundFilesLicense' => 'Sound files',
-    'mlp_SoundFilesLicenseText' => 'Asterisk Sound Files (CC BY-SA 4.0)',
-    'mlp_CopyrightHeader' => 'Copyright',
-    'mlp_ModuleDevelopment' => 'Module development',
-    'mlp_VoicePrompts' => 'Voice prompts',
-    'mlp_VoicePromptsSource' => 'From official Asterisk release',
+    'mlp_nl_SoundFiles' => 'Sound Files',
+    'mlp_nl_TranslationFiles' => 'Translation Files',
+    'mlp_nl_TranslationStrings' => 'Translation Strings',
+    'mlp_nl_Step1' => 'After enabling this language pack, select the appropriate language in General Settings.',
+    'mlp_nl_GoToGeneralSettings' => 'Go to General Settings',
+    'mlp_nl_HelpTranslate' => 'Want to improve the translation? Help us on Weblate!',
+    'mlp_nl_WeblateLink' => 'Open Weblate',
 ];
