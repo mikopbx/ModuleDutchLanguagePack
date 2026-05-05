@@ -1,0 +1,643 @@
+; Core Asterisk Sounds in Dutch (Nederlands)
+; Generated using Piper TTS (nl_NL-mls-medium)
+; Sample rate: 22050 Hz, mono, 16-bit PCM WAV
+; Total entries: 638
+;
+a-m: a.m.
+activated: Geactiveerd.
+added: Toegevoegd.
+agent-alreadyon: Deze agent is al aangemeld. Voer uw agentnummer in, gevolgd door het hekje.
+agent-incorrect: Aanmelden mislukt. Voer uw agentnummer in, gevolgd door het hekje.
+agent-loggedoff: Agent afgemeld.
+agent-login: Agent aanmelden.
+agent-loginok: Agent aangemeld.
+agent-logoff: Agent afmelden.
+agent-newlocation: Voer een nieuw toestelnummer in, gevolgd door het hekje.
+agent-pass: Voer uw wachtwoord in, gevolgd door het hekje.
+agent-user: Agent aanmelden. Voer uw agentnummer in, gevolgd door het hekje.
+all-circuits-busy-now: Alle lijnen zijn momenteel bezet.
+areminder-1c-2n: Druk op 1 om te bevestigen of op 2 voor een nieuwe afspraak.
+areminder-cancel: Druk op een toets om de afspraak te annuleren.
+areminder-cancelled: Uw afspraak is geannuleerd.
+areminder-confirm: Druk op een toets om de afspraak te bevestigen.
+areminder-confirmed: Uw afspraak is bevestigd.
+areminder-for: voor
+areminder-greeting: Hallo, dit is een herinnering aan uw afspraak.
+areminder-greeting2: Dit is een geautomatiseerde oproep met een herinnering aan uw afspraak.
+areminder-instructions: Druk op 1 om te bevestigen, op 2 om te annuleren, op 3 om de afspraak te verzetten of op 0 voor een medewerker.
+areminder-reschedule: Druk op een toets om uw afspraak te verzetten.
+areminder-reschedule-callback: Een medewerker neemt binnenkort contact met u op om de afspraak te verzetten.
+areminder-summary: Uw afspraak is gepland
+areminder-summary-instructions: Voor meer informatie kunt u contact opnemen met onze medewerker.
+areminder-summary2: Tot ziens.
+areminder-transfer: Een ogenblik geduld, u wordt doorverbonden met een medewerker.
+ascending-2tone:
+astcc-followed-by-pound: Gevolgd door het hekje.
+astcc-followed-by-the-pound-key: Gevolgd door het hekje.
+at: om
+at-tone-time-exactly: Bij het signaal is het precies...
+auth-incorrect: Wachtwoord onjuist. Voer uw wachtwoord in, gevolgd door het hekje.
+auth-thankyou: Dank u wel.
+beep:
+beeperr:
+call-forwarding: Doorschakelen.
+call-fwd-no-ans: Doorschakelen bij geen gehoor.
+call-fwd-on-busy: Doorschakelen bij bezet.
+call-fwd-unconditional: Onvoorwaardelijk doorschakelen.
+call-waiting: Wachtstand.
+calling: Bellen.
+cancelled: Geannuleerd.
+cannot-complete-as-dialed: Uw oproep kan niet worden voltooid zoals gekozen.
+cdir-matching-entries-continue: Er zijn meerdere overeenkomsten. Druk op een toets om door te gaan.
+cdir-matching-entries-or-pound: Of druk op het hekje om de zoekopdracht te herhalen.
+cdir-please-enter-first-three: Voer de eerste drie letters in van de naam van de gewenste persoon.
+cdir-sorry-no-entries: Helaas zijn er geen overeenkomende vermeldingen.
+cdir-there-are: Er zijn
+cdir-transferring-further-assistance: U wordt doorverbonden voor verdere assistentie.
+cdir-welcome: Welkom bij de bedrijfsgids.
+check-number-dial-again: Controleer het nummer en probeer het opnieuw.
+conf-adminmenu: Druk op 1 om uw microfoon te dempen of te activeren, 2 om de conferentie te vergrendelen of ontgrendelen, 3 om de laatste deelnemer te verwijderen, 4 of 6 om het volume te verlagen of te verhogen, 7 of 9 om uw eigen volume aan te passen, of 8 om af te sluiten.
+conf-adminmenu-162: Druk op 1 om uw microfoon te dempen of te activeren, 2 om de conferentie te vergrendelen of ontgrendelen, 3 om de laatste deelnemer te verwijderen, 4 of 6 om het conferentievolume te verlagen of te verhogen, 5 om de conferentie te verlengen, 7 of 9 om uw eigen volume aan te passen, of 8 om af te sluiten.
+conf-adminmenu-18: Druk op 1 om uw microfoon te dempen of te activeren, 2 om de conferentie te vergrendelen of ontgrendelen, 3 om de laatste deelnemer te verwijderen, 4 of 6 om het conferentievolume te verlagen of te verhogen, 5 om de conferentie te verlengen, 7 of 9 om uw eigen volume aan te passen, of 8 voor meer opties.
+conf-adminmenu-menu8: Druk op 1 voor een lijst van deelnemers, 2 om alle niet-administrators te verwijderen, 3 om alle niet-administrators te dempen of te activeren, 4 om deze conferentie op te nemen, of 8 om dit menu te verlaten.
+conf-enteringno: U betreedt conferentie nummer
+conf-errormenu: Ongeldige keuze.
+conf-extended: De conferentie is verlengd.
+conf-full: Deze conferentie is vol.
+conf-getchannel: Voer het kanaalnummer in, gevolgd door het hekje.
+conf-getconfno: Voer uw conferentienummer in, gevolgd door het hekje.
+conf-getpin: Voer de pincode van de conferentie in.
+conf-hasjoin: is nu in de conferentie.
+conf-hasleft: heeft de conferentie verlaten.
+conf-invalid: Dat is geen geldig conferentienummer. Probeer het opnieuw.
+conf-invalidpin: Die pincode is niet geldig voor deze conferentie.
+conf-kicked: U bent uit de conferentie verwijderd.
+conf-leaderhasleft: De leider heeft de conferentie verlaten.
+conf-locked: Deze conferentie is vergrendeld!
+conf-lockednow: De conferentie is nu vergrendeld.
+conf-muted: U bent nu gedempt.
+conf-noempty: Er zijn momenteel geen lege conferenties.
+conf-nonextended: De conferentie kan niet worden verlengd.
+conf-now-muted: De conferentie is nu gedempt.
+conf-now-recording: De conferentie wordt nu opgenomen.
+conf-now-unmuted: De conferentie is niet langer gedempt.
+conf-onlyone: Er is momenteel één andere deelnemer in de conferentie.
+conf-onlyperson: U bent momenteel de enige deelnemer in deze conferentie.
+conf-otherinparty: andere deelnemers in de conferentie
+conf-placeintoconf: U wordt nu in de conferentie geplaatst.
+conf-roll-callcomplete: Het afspelen van de deelnemerslijst is voltooid.
+conf-thereare: Er zijn momenteel
+conf-unlockednow: De conferentie is nu ontgrendeld.
+conf-unmuted: U bent niet langer gedempt.
+conf-usermenu: Druk op 1 om uw microfoon te dempen of te activeren, 4 of 6 om het conferentievolume te verlagen of te verhogen, 7 of 9 om uw eigen volume aan te passen, of 8 om af te sluiten.
+conf-usermenu-162: Druk op 1 om uw microfoon te dempen of te activeren, 4 of 6 om het conferentievolume te verlagen of te verhogen, 5 om de conferentie te verlengen, 7 of 9 om uw eigen volume aan te passen, of 8 om dit menu te verlaten.
+conf-userswilljoin: deelnemers nemen deel aan de conferentie.
+conf-userwilljoin: deelnemer neemt deel aan de conferentie.
+conf-waitforleader: De conferentie begint zodra de leider arriveert.
+confbridge-begin-glorious-a: De conferentie begint zodra onze grote leider arriveert.
+confbridge-begin-glorious-b: De conferentie begint zodra onze grote leider arriveert.
+confbridge-begin-glorious-c: De conferentie begint zodra onze grote leider arriveert.
+confbridge-begin-leader: De conferentie begint zodra de leider arriveert.
+confbridge-conf-begin: De conferentie begint nu.
+confbridge-conf-end: De conferentie is beëindigd.
+confbridge-dec-list-vol-in: Om het volume van andere deelnemers te verlagen...
+confbridge-dec-list-vol-out: ...om het volume van andere deelnemers te verlagen.
+confbridge-dec-talk-vol-in: Om uw spreekvolume voor andere deelnemers te verlagen...
+confbridge-dec-talk-vol-out: ...om uw spreekvolume voor andere deelnemers te verlagen.
+confbridge-has-joined: ...heeft de conferentie betreden.
+confbridge-has-left: ...heeft de conferentie verlaten.
+confbridge-inc-list-vol-in: Om het volume van andere deelnemers te verhogen...
+confbridge-inc-list-vol-out: ...om het volume van andere deelnemers te verhogen.
+confbridge-inc-talk-vol-in: Om uw spreekvolume voor andere deelnemers te verhogen...
+confbridge-inc-talk-vol-out: ...om uw spreekvolume voor andere deelnemers te verhogen.
+confbridge-invalid: U heeft een ongeldige optie ingevoerd.
+confbridge-join:
+confbridge-leave:
+confbridge-leave-in: Om de conferentie te verlaten...
+confbridge-leave-out: ...om de conferentie te verlaten.
+confbridge-lock-extended: ...om de conferentie te vergrendelen of te ontgrendelen. Wanneer een conferentie vergrendeld is, kunnen alleen beheerders deelnemen.
+confbridge-lock-in: Om de conferentie te vergrendelen of te ontgrendelen...
+confbridge-lock-no-join: De conferentie is momenteel vergrendeld en kan niet worden betreden.
+confbridge-lock-out: ...om de conferentie te vergrendelen of te ontgrendelen.
+confbridge-locked: De conferentie is nu vergrendeld.
+confbridge-menu-exit-in: Om het menu te verlaten...
+confbridge-menu-exit-out: ...om het menu te verlaten.
+confbridge-mute-extended: ...om uzelf te dempen of te activeren. Wanneer u gedempt bent, kunt u geen geluid naar andere deelnemers verzenden, maar u hoort wel andere deelnemers.
+confbridge-mute-in: Om uzelf te dempen of te activeren...
+confbridge-mute-out: ...om uzelf te dempen of te activeren.
+confbridge-muted: U bent nu gedempt.
+confbridge-only-one: Er is momenteel één andere deelnemer in de conferentie.
+confbridge-only-participant: U bent momenteel de enige deelnemer in de conferentie.
+confbridge-participants: ...deelnemers in de conferentie.
+confbridge-pin: Voer uw persoonlijke pincode in, gevolgd door het hekje.
+confbridge-pin-bad: U heeft te veel ongeldige pincodes ingevoerd.
+confbridge-remove-last-in: Om de laatst toegetreden deelnemer te verwijderen...
+confbridge-remove-last-out: ...om de laatst toegetreden deelnemer te verwijderen.
+confbridge-removed: U bent uit de conferentie verwijderd.
+confbridge-rest-list-vol-in: Om het conferentievolume terug te zetten naar het standaardniveau...
+confbridge-rest-list-vol-out: ...om het conferentievolume terug te zetten naar het standaardniveau.
+confbridge-rest-talk-vol-in: Om uw spreekvolume terug te zetten naar het standaardniveau...
+confbridge-rest-talk-vol-out: ...om uw spreekvolume terug te zetten naar het standaardniveau.
+confbridge-there-are: Er zijn momenteel...
+confbridge-unlocked: De conferentie is nu ontgrendeld.
+confbridge-unmuted: U bent niet langer gedempt.
+dash: streepje
+de-activated: Gedeactiveerd.
+demo-echodone: De echotest is voltooid.
+demo-echotest: U gaat nu een echotest beginnen. Alles wat u zegt wordt direct teruggespeeld. U kunt de test beëindigen door op te hangen of op het hekje te drukken.
+descending-2tone:
+dictate/both_help: Druk op het sterretje om te pauzeren, druk op het hekje om een nieuwe bestandsnaam in te voeren.
+dictate/enter_filename: Voer een numerieke bestandsnaam in, gevolgd door het hekje, of druk op het hekje om af te sluiten.
+dictate/forhelp: Druk op 0 voor hulp.
+dictate/pause: pauze
+dictate/paused: gepauzeerd
+dictate/play_help: Druk op 1 voor opnamemodus, op 2 voor snel afspelen, op 7 om terug te springen, op 8 om vooruit te springen.
+dictate/playback: afspelen
+dictate/playback_mode: afspeelmodus
+dictate/record: opnemen
+dictate/record_help: Druk op 1 voor afspeelmodus, op 8 om het bestand af te kappen en opnieuw te beginnen.
+dictate/record_mode: opnamemodus
+dictate/truncating_audio: audio wordt afgekapt
+dictation-being-processed: Uw dictaat wordt verwerkt.
+dictation-sent: Uw dictaat is verzonden.
+digits/0: nul
+digits/1: een
+digits/10: tien
+digits/11: elf
+digits/12: twaalf
+digits/13: dertien
+digits/14: veertien
+digits/15: vijftien
+digits/16: zestien
+digits/17: zeventien
+digits/18: achttien
+digits/19: negentien
+digits/2: twee
+digits/20: twintig
+digits/3: drie
+digits/30: dertig
+digits/4: vier
+digits/40: veertig
+digits/5: vijf
+digits/50: vijftig
+digits/6: zes
+digits/60: zestig
+digits/7: zeven
+digits/70: zeventig
+digits/8: acht
+digits/80: tachtig
+digits/9: negen
+digits/90: negentig
+digits/a-m: a.m.
+digits/at: om
+digits/billion: miljard
+digits/day-0: zondag
+digits/day-1: maandag
+digits/day-2: dinsdag
+digits/day-3: woensdag
+digits/day-4: donderdag
+digits/day-5: vrijdag
+digits/day-6: zaterdag
+digits/dollar: dollar
+digits/dollars: dollar
+digits/h-1: eerste
+digits/h-10: tiende
+digits/h-11: elfde
+digits/h-12: twaalfde
+digits/h-13: dertiende
+digits/h-14: veertiende
+digits/h-15: vijftiende
+digits/h-16: zestiende
+digits/h-17: zeventiende
+digits/h-18: achttiende
+digits/h-19: negentiende
+digits/h-2: tweede
+digits/h-20: twintigste
+digits/h-3: derde
+digits/h-30: dertigste
+digits/h-4: vierde
+digits/h-40: veertigste
+digits/h-5: vijfde
+digits/h-50: vijftigste
+digits/h-6: zesde
+digits/h-60: zestigste
+digits/h-7: zevende
+digits/h-70: zeventigste
+digits/h-8: achtste
+digits/h-80: tachtigste
+digits/h-9: negende
+digits/h-90: negentigste
+digits/h-billion: miljardste
+digits/h-hundred: honderdste
+digits/h-million: miljoenste
+digits/h-thousand: duizendste
+digits/hours: uur
+digits/hundred: honderd
+digits/million: miljoen
+digits/minus: min
+digits/minutes: minuten
+digits/mon-0: januari
+digits/mon-1: februari
+digits/mon-10: november
+digits/mon-11: december
+digits/mon-2: maart
+digits/mon-3: april
+digits/mon-4: mei
+digits/mon-5: juni
+digits/mon-6: juli
+digits/mon-7: augustus
+digits/mon-8: september
+digits/mon-9: oktober
+digits/nl-en: en
+digits/nl-om: om
+digits/nl-op: op
+digits/nl-uur: uur
+digits/oclock: uur
+digits/oh: o
+digits/p-m: p.m.
+digits/pound: hekje
+digits/seconds: seconden
+digits/star: sterretje
+digits/thousand: duizend
+digits/today: vandaag
+digits/tomorrow: morgen
+digits/yesterday: gisteren
+dir-first: letters van de voornaam van de gewenste persoon.
+dir-firstlast: ...letters van de voor- of achternaam van de gewenste persoon.
+dir-instr: Als dit de gewenste persoon is, druk op 1, anders druk op het sterretje.
+dir-intro: Welkom bij de gids. Voer de eerste drie letters in van de achternaam van de gewenste persoon.
+dir-intro-fn: Welkom bij de gids. Voer de eerste drie letters in van de voornaam van de gewenste persoon.
+dir-last: ...letters van de achternaam van de gewenste persoon.
+dir-multi1: Druk op...
+dir-multi2: ...voor...
+dir-multi3: ...toestel...
+dir-multi9: Druk op 9 voor meer vermeldingen.
+dir-nomatch: Geen vermeldingen komen overeen met uw zoekopdracht.
+dir-nomore: Er zijn geen verdere overeenkomende vermeldingen in de gids.
+dir-pls-enter: Voer de eerste...
+dir-usingkeypad: ...met behulp van uw toetsenbord. Gebruik de 7 voor Q en de 9 voor Z.
+dir-welcome: Welkom bij de gids.
+disabled: Uitgeschakeld.
+do-not-disturb: Niet storen.
+dollar: dollar
+dollars: dollar
+dot: punt
+enabled: Ingeschakeld.
+enter-filename-short: Voer een korte bestandsnaam in.
+enter-num-blacklist: Voer het nummer in dat u op de zwarte lijst wilt zetten.
+entr-num-rmv-blklist: Voer het nummer in dat u van de zwarte lijst wilt verwijderen.
+equals: is gelijk aan
+exclaimation-point: uitroepteken
+exited-vm-will-be-transfered: Voicemail beëindigd. U wordt doorverbonden.
+extension: Toestel.
+feature-not-avail-line: Deze functie is niet beschikbaar op deze lijn.
+featurecode: Functiecode.
+followme: Volg mij.
+followme/call-from: Inkomende oproep van
+followme/followme: Volg mij.
+followme/no-recording: U heeft een inkomende oproep.
+followme/options: Druk op 1 om de oproep aan te nemen of 2 om te weigeren.
+followme/pls-hold-while-try: Een ogenblik geduld terwijl ik probeer de gewenste persoon te bereiken.
+followme/sorry: Het spijt me, ik kon de gewenste persoon niet bereiken.
+followme/status: De gewenste persoon is niet aanwezig; ik probeer hem of haar voor u te bereiken.
+for: voor
+from-unknown-caller: van een onbekende beller.
+goodbye: Tot ziens!
+hello: Hallo.
+hello-world: Hallo wereld.
+hours: uur
+if-correct-press: Als dit juist is, druk op...
+im-sorry: Het spijt me.
+incoming-call-1-accept-2-decline: Inkomende oproep. Druk op 1 om aan te nemen of 2 om te weigeren.
+incoming-call-no-longer-avail: De inkomende oproep is niet langer beschikbaar.
+info-about-last-call: Informatie over uw laatste oproep.
+intercom: Intercom.
+invalid: Het spijt me, dat is geen geldig toestelnummer. Probeer het opnieuw.
+is: is.
+is-in-use: Is in gebruik.
+is-set-to: Is ingesteld op.
+letters/a: a
+letters/ascii123: accolade openen
+letters/ascii124: verticale streep
+letters/ascii125: accolade sluiten
+letters/ascii126: tilde
+letters/ascii34: aanhalingsteken
+letters/ascii36: dollarteken
+letters/ascii37: procent
+letters/ascii38: ampersand
+letters/ascii39: apostrof
+letters/ascii40: haakje openen
+letters/ascii41: haakje sluiten
+letters/ascii42: sterretje
+letters/ascii44: komma
+letters/ascii58: dubbele punt
+letters/ascii59: puntkomma
+letters/ascii60: kleiner dan
+letters/ascii62: groter dan
+letters/ascii63: vraagteken
+letters/ascii91: vierkant haakje openen
+letters/ascii92: schuine streep terug
+letters/ascii93: vierkant haakje sluiten
+letters/ascii94: dakje
+letters/ascii95: laag streepje
+letters/ascii96: accent grave
+letters/asterisk: sterretje
+letters/at: apenstaartje
+letters/b: bee
+letters/c: see
+letters/d: dee
+letters/dash: streepje
+letters/dollar: dollarteken
+letters/dollars: dollarteken
+letters/dot: punt
+letters/e: ee
+letters/equals: is gelijk aan
+letters/exclaimation-point: uitroepteken
+letters/f: ef
+letters/g: gee
+letters/h: ha
+letters/i: i
+letters/j: jee
+letters/k: ka
+letters/l: el
+letters/m: em
+letters/n: en
+letters/o: o
+letters/p: pee
+letters/plus: plus
+letters/q: kuu
+letters/r: er
+letters/s: es
+letters/slash: schuine streep
+letters/space: spatie
+letters/t: tee
+letters/u: u
+letters/v: vee
+letters/w: wee
+letters/x: iks
+letters/y: ij
+letters/z: zet
+letters/zed: zet
+line-busy-transfer-menu: De lijn is bezet. Doorschakelen naar het menu.
+location: Locatie.
+lowercase: kleine letter
+minutes: minuten
+no-valid-responce-pls-try-again: Geen geldige invoer. Probeer het opnieuw.
+no-valid-responce-transfering: Geen geldige invoer. U wordt doorverbonden.
+num-was-successfully: Het nummer is succesvol...
+number: Nummer.
+number-not-answering: Het nummer wordt niet beantwoord.
+one-moment-please: Een ogenblik, alstublieft.
+pbdirectory-first-three-letters-entry: Voer de eerste drie letters in van de naam van de gewenste persoon.
+pbdirectory-if-correct-press: Als dit juist is, druk op...
+pbdirectory-if-incorrect-press: Als dit onjuist is, druk op...
+pbdirectory-welcome-to-phonebook: Welkom bij het telefoonboek.
+pbx-invalid: Het spijt me, dat is geen geldig toestelnummer. Probeer het opnieuw.
+pbx-invalidpark: Het spijt me, er staat geen oproep geparkeerd op dat toestel. Probeer het opnieuw.
+pbx-parkingfailed: Parkeren mislukt.
+pbx-transfer: Doorverbinden.
+phonetic/9_p: negen
+phonetic/a_p: alfa
+phonetic/at: apenstaartje
+phonetic/b_p: bravo
+phonetic/c_p: charlie
+phonetic/d_p: delta
+phonetic/e_p: echo
+phonetic/f_p: foxtrot
+phonetic/g_p: golf
+phonetic/h_p: hotel
+phonetic/i_p: india
+phonetic/j_p: juliett
+phonetic/k_p: kilo
+phonetic/l_p: lima
+phonetic/m_p: mike
+phonetic/n_p: november
+phonetic/o_p: oscar
+phonetic/p_p: papa
+phonetic/q_p: quebec
+phonetic/r_p: romeo
+phonetic/s_p: sierra
+phonetic/t_p: tango
+phonetic/u_p: uniform
+phonetic/v_p: victor
+phonetic/w_p: whiskey
+phonetic/x_p: x-ray
+phonetic/y_p: yankee
+phonetic/z_p: zulu
+please-enter-your-extension-then-press-pound: Voer uw toestelnummer in, gevolgd door het hekje.
+please-try-again: Probeer het opnieuw.
+please-try-call-later: Probeer het later opnieuw.
+plus: plus
+pm-invalid-option: Die optie is ongeldig. Probeer het opnieuw.
+pound: hekje
+press-1: Druk op 1.
+press-2: Druk op 2.
+press-3: Druk op 3.
+press-star: Druk op het sterretje.
+priv-callee-options: Druk op 1 om deze beller direct door te verbinden, nu en in de toekomst. Druk op 2 om deze beller naar voicemail te sturen. Druk op 3 om deze beller naar het kwelmenu te sturen. Druk op 4 voor het beleefde 'niet bellen' menu. Druk op 5 om deze beller in de toekomst direct door te laten, maar deze keer naar voicemail te sturen.
+priv-callpending: Er wacht een beller die zich voorstelt als:
+priv-introsaved: Dank u. Een ogenblik geduld terwijl ik u verbind met de gewenste persoon.
+priv-recordintro: Spreek na de toon uw naam in.
+privacy-incorrect: Het spijt me, dat nummer is niet geldig.
+privacy-prompt: Voer uw telefoonnummer in, beginnend met het netnummer.
+privacy-thankyou: Dank u.
+privacy-to-blacklist-last-caller: De laatste beller was...
+privacy-unident: De gewenste persoon accepteert geen anonieme oproepen.
+queue-callswaiting: Wachtend op een medewerker.
+queue-holdtime: De geschatte wachttijd is momenteel
+queue-less-than: minder dan
+queue-minute: minuut
+queue-minutes: minuten
+queue-periodic-announce: Al onze medewerkers zijn momenteel in gesprek. Blijf aan de lijn en u wordt zo snel mogelijk geholpen.
+queue-quantity1: Er zijn momenteel meer dan...
+queue-quantity2: ...bellers wachtend op een medewerker.
+queue-reporthold: Wachttijd
+queue-seconds: seconden
+queue-thankyou: Dank u voor uw geduld.
+queue-thereare: U bent momenteel beller nummer
+queue-youarenext: Uw oproep staat nu eerst in de wachtrij en wordt zo snel mogelijk beantwoord.
+removed: Verwijderd.
+screen-callee-options: U heeft deze opties: Druk op 1 om de oproep direct te beantwoorden. Druk op 2 om de beller naar voicemail te sturen. Druk op 3 voor het kwelmenu. Druk op 4 voor het beleefde 'niet bellen' menu.
+seconds: seconden
+silence/1:
+silence/10:
+silence/2:
+silence/3:
+silence/4:
+silence/5:
+silence/6:
+silence/7:
+silence/8:
+silence/9:
+simul-call-limit-reached: Limiet voor gelijktijdige oproepen bereikt.
+slash: schuine streep
+sng_mcu:
+sng_mcu_chime:
+something-terribly-wrong: Er is iets ernstig mis!
+sorry-youre-having-problems: Sorry voor het ongemak.
+space: spatie
+speed-dial: Snelkeuze.
+speed-dial-empty: De geselecteerde snelkeuze is leeg.
+speed-enterlocation: Voer de locatie in.
+speed-enternumber: Voer het snelkeuzenummer in.
+spy-agent: Agent
+spy-console: Console
+spy-dahdi: DAHDI
+spy-h323: H.323
+spy-iax: IAX
+spy-iax2: IAX
+spy-jingle: Jingle
+spy-local: Lokaal
+spy-mgcp: MGCP
+spy-misdn: M I S D N
+spy-mobile: Bluetooth Mobiel
+spy-nbs: N B S
+spy-sip: SIP
+spy-skinny: Skinny
+spy-unistim: Unistim
+spy-usbradio: USB Radio
+spy-zap: Zap
+ss-noservice: Het gekozen nummer is niet in gebruik. Controleer het nummer en probeer het opnieuw.
+telephone-number: Telefoonnummer.
+time: Tijd.
+to-call-this-number: Om dit nummer te bellen.
+to-change: Om te wijzigen.
+to-enter-a-diff: Om een ander in te voeren.
+to-extension: Naar toestel.
+to-listen-to-it: Om dit te beluisteren.
+to-rerecord-it: Om opnieuw op te nemen.
+transfer: Een ogenblik geduld terwijl ik dat toestel probeer.
+tt-somethingwrong: Er is iets ernstig mis.
+unidentified-no-callback: Niet-geïdentificeerd of afgeschermd, en kan daarom niet worden teruggebeld.
+uppercase: hoofdletter
+vm-Cust1: map 5
+vm-Cust2: map 6
+vm-Cust3: map 7
+vm-Cust4: map 8
+vm-Cust5: map 9
+vm-Family: familie
+vm-Friends: vrienden
+vm-INBOX: nieuw
+vm-Old: oud
+vm-Urgent: urgent
+vm-Work: werk
+vm-advopts: Druk op 3 voor geavanceerde opties.
+vm-and: en
+vm-calldiffnum: Druk op 2 om een ander nummer in te voeren.
+vm-changeto: Naar welke map wilt u wisselen?
+vm-delete: Druk op 7 om dit bericht te verwijderen.
+vm-deleted: Bericht verwijderd.
+vm-dialout: Een ogenblik geduld terwijl ik uw oproep doorverbind.
+vm-duration: Dit bericht duurt...
+vm-enter-num-to-call: Voer het nummer in dat u wilt bellen.
+vm-extension: toestel
+vm-first: eerste
+vm-for: voor
+vm-forward: Druk op 1 om een toestel in te voeren, druk op 2 om de gids te gebruiken.
+vm-forward-multiple: Druk op 1 om dit bericht te verzenden, of 2 om een andere ontvanger toe te voegen.
+vm-forwardoptions: Druk op 1 om een bericht vooraf op te nemen, of 2 om het bericht door te sturen zonder voorafgaand bericht.
+vm-from: van
+vm-from-extension: bericht van toestel
+vm-from-phonenumber: bericht van nummer
+vm-goodbye: Tot ziens.
+vm-helpexit: Druk op het sterretje voor hulp of het hekje om af te sluiten.
+vm-incorrect: Aanmelden mislukt.
+vm-incorrect-mailbox: Aanmelden mislukt. Mailbox?
+vm-instructions: Druk op 1 om uw berichten te beluisteren. U kunt voicemail op elk moment verlaten door op het hekje te drukken.
+vm-intro: Spreek uw bericht in na de toon. Wanneer u klaar bent, kunt u ophangen of op het hekje drukken.
+vm-invalid-password: Dit wachtwoord voldoet niet aan de minimumeisen voor deze mailbox. Probeer het opnieuw.
+vm-invalidpassword: Dat is geen geldig wachtwoord. Probeer het opnieuw.
+vm-isonphone: is in gesprek.
+vm-isunavail: is niet beschikbaar.
+vm-last: laatste
+vm-leavemsg: Druk op 5 om een bericht achter te laten.
+vm-login: Comedian Mail. Mailbox?
+vm-mailboxfull: Helaas kan de mailbox van de gebruiker geen berichten meer ontvangen.
+vm-marked-nonurgent: Urgente status verwijderd.
+vm-marked-urgent: Bericht gemarkeerd als urgent.
+vm-message: bericht
+vm-messages: berichten
+vm-minutes: minuten
+vm-mismatch: De wachtwoorden die u heeft ingevoerd komen niet overeen. Probeer het opnieuw.
+vm-msgforwarded: Uw bericht is succesvol doorgestuurd.
+vm-msginstruct: Druk op 6 voor het volgende bericht, op 5 om dit bericht te herhalen, op 4 voor het vorige bericht, op nul om dit bericht te verwijderen of terug te zetten, op het hekje om voicemail te verlaten.
+vm-msgsaved: Uw bericht is opgeslagen.
+vm-newpassword: Voer uw nieuwe wachtwoord in, gevolgd door het hekje.
+vm-newuser: Welkom bij voicemail. Eerst zal ik u door een korte instelprocedure leiden.
+vm-next: Druk op 6 om het volgende bericht af te spelen.
+vm-no: nee
+vm-nobodyavail: Niemand is op dit moment beschikbaar om uw oproep aan te nemen.
+vm-nobox: U kunt niet op dit bericht antwoorden omdat de afzender geen mailbox heeft.
+vm-nomore: Geen berichten meer.
+vm-nonumber: Helaas weet ik niet wie dit bericht heeft verzonden.
+vm-num-i-have: Het nummer dat ik heb is
+vm-onefor: Druk op 1 voor
+vm-onefor-full: Druk op 1 om te beluisteren...
+vm-options: Druk op 1 om uw 'niet beschikbaar' bericht op te nemen, op 2 voor uw 'in gesprek' bericht, op 3 om uw naam op te nemen, op 4 voor uw tijdelijke begroeting, op 5 om uw wachtwoord te wijzigen, op het sterretje om terug te keren naar het hoofdmenu.
+vm-opts: Druk op 2 om mappen te wisselen, op 3 voor geavanceerde opties, op nul voor mailboxopties.
+vm-opts-full: Druk op 2 voor toegang tot berichten in andere mappen. Druk op 3 om een bericht voor een andere mailbox op te nemen. Druk op 0 voor begroetingen en wachtwoordbeheer.
+vm-passchanged: Uw wachtwoord is gewijzigd.
+vm-password: wachtwoord
+vm-pls-try-again: Probeer het opnieuw.
+vm-press: druk op
+vm-prev: Druk op 4 voor het vorige bericht.
+vm-reachoper: Druk op nul om een operator te bereiken.
+vm-rec-busy: Spreek na de toon uw 'in gesprek' bericht in en druk daarna op het hekje.
+vm-rec-name: Spreek na de toon uw naam in en druk daarna op het hekje.
+vm-rec-temp: Spreek na de toon uw tijdelijke bericht in en druk daarna op het hekje.
+vm-rec-unv: Spreek na de toon uw 'niet beschikbaar' bericht in en druk daarna op het hekje.
+vm-received: ontvangen
+vm-record-prepend: Spreek na de toon een inleiding in voor het doorgestuurde bericht. Druk op het hekje als u klaar bent.
+vm-reenterpassword: Voer uw wachtwoord nogmaals in, gevolgd door het hekje.
+vm-repeat: Druk op 5 om het huidige bericht te herhalen.
+vm-review: Druk op 1 om deze opname te accepteren, op 2 om te beluisteren, op 3 om opnieuw op te nemen.
+vm-review-nonurgent: Druk op 4 om de urgente status van dit bericht te verwijderen.
+vm-review-urgent: Druk op 4 om dit bericht als urgent te markeren.
+vm-saved: opgeslagen
+vm-savedto: opgeslagen in
+vm-savefolder: In welke map wilt u het bericht opslaan?
+vm-savemessage: of 9 om dit bericht op te slaan.
+vm-saveoper: Druk op 1 om deze opname te accepteren, anders blijf aan de lijn.
+vm-sorry: Het spijt me, ik heb uw antwoord niet begrepen.
+vm-star-cancel: Druk op het sterretje om te annuleren.
+vm-starmain: Druk op het sterretje om terug te keren naar het hoofdmenu.
+vm-tempgreetactive: Uw tijdelijke begroeting is momenteel actief.
+vm-tempgreeting: Druk op 1 om uw tijdelijke begroeting op te nemen.
+vm-tempgreeting2: Druk op 1 om uw tijdelijke begroeting op te nemen, of 2 om deze te wissen.
+vm-tempremoved: Uw tijdelijke begroeting is verwijderd.
+vm-then-pound: druk daarna op het hekje.
+vm-theperson: De persoon op toestel
+vm-tmpexists: Er is een tijdelijke begroeting actief, die uw standaardbegroeting overschrijft.
+vm-tocallback: Druk op 2 om degene te bellen die dit bericht heeft achtergelaten.
+vm-tocallnum: Druk op 1 om dit nummer te bellen.
+vm-tocancel: of het hekje om te annuleren.
+vm-tocancelmsg: Druk op het sterretje om dit bericht te annuleren.
+vm-toenternumber: Druk op 1 om een nummer in te voeren.
+vm-toforward: Druk op 8 om het bericht door te sturen naar een andere gebruiker.
+vm-tohearenv: Druk op 3 om de berichtgegevens te horen.
+vm-tomakecall: Druk op 4 om een uitgaande oproep te plaatsen.
+vm-tooshort: Uw bericht is te kort.
+vm-toreply: Druk op 1 om een antwoord te verzenden.
+vm-torerecord: Druk op 3 om uw bericht opnieuw op te nemen.
+vm-undelete: Druk op 7 om dit bericht terug te zetten.
+vm-undeleted: Bericht teruggezet.
+vm-unknown-caller: van een onbekende beller.
+vm-whichbox: Om een bericht achter te laten, voer een mailboxnummer in.
+vm-youhave: u heeft
+vmnotify-followed-by-pound: gevolgd door het hekje.
+vmnotify-goodbye: Tot ziens.
+vmnotify-greeting: U heeft een nieuw voicemailbericht.
+vmnotify-instructions: Druk op 1 om het bericht te beluisteren. Druk op het hekje om af te sluiten.
+vmnotify-instructions2: Voer uw wachtwoord in, gevolgd door het hekje.
+vmnotify-recname: Naam van de afzender:
+vmnotify-thankyou: Dank u wel.
+vmnotify-too-late: Het bericht is niet langer beschikbaar.
+vqplus-accept: Druk op 1 om de oproep aan te nemen.
+vqplus-callback: Druk op 2 om een terugbelverzoek achter te laten.
+vqplus-confirmed: Uw terugbelverzoek is bevestigd. Tot ziens.
+vqplus-enter-name: Spreek uw naam in na de toon en druk op het hekje.
+vqplus-enter-number: Voer uw telefoonnummer in, gevolgd door het hekje.
+with: met.
+you-entered: U heeft ingevoerd.
+you-will-be-transfered-menu: U wordt doorverbonden met het menu.
+your: uw.
